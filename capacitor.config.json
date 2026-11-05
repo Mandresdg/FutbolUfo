@@ -1,8 +1,5 @@
 {
   "appId": "com.draftwakanda.app",
   "appName": "Draft Wakanda",
-  "webDir": "www",
-  "server": {
-    "androidScheme": "https"
-  }
+  "webDir": "www"
 }
