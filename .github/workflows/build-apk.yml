@@ -20,6 +20,7 @@ jobs:
 
       - name: Instalar dependencias
         run: npm install
+      - run: npm install -g @capacitor/assets
       - name: Preparar Android
         run: npx cap add android
         run: npx @capacitor/assets generate --android
