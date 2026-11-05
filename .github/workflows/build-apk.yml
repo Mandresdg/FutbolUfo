@@ -23,7 +23,7 @@ jobs:
       - run: npm install -g @capacitor/assets
       - name: Preparar Android
         run: npx cap add android
-        run: npx @capacitor/assets generate --android
+      - run: npx @capacitor/assets generate --android
 
       - name: Sincronizar aplicación
         run: npx cap sync android
